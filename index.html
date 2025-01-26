@@ -1,14 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Word Editor</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <!-- Heading -->
-     <!--  -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="input-container">
+        <!-- Heading -->
+        <h1>Type Your Word</h1>
+        <!-- Input field Section -->
+        <input type="text" id="input-field"/>
+      </div>
+      <!-- Text Formatting Section -->
+      <div class="btns-container">
+        <button class="btn uppercase">ABC</button>
+        <button class="btn lowercase">abc</button>
+        <button class="btn capitalize">Abc</button>
+        <button class="btn bold">B</button>
+        <button class="btn italic">I</button>
+        <button class="btn underline" style="text-decoration: underline">ABC</button>
+      </div>
+      <!-- Output field Section -->
+      <p id="output-container">Output</p>
+    </div>
+
     <script src="main.js"></script>
-</body>
+  </body>
 </html>
