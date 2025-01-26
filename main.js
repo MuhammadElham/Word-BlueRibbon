@@ -1,6 +1,6 @@
 const inputField = document.getElementById("input-field");
 const outputField = document.getElementById("output-container");
-const buttons = document.querySelectorAll(".btn"); // Select all buttons
+const buttons = document.querySelectorAll(".btn");
 
 // Result Section
 inputField.addEventListener("keyup", () => {
